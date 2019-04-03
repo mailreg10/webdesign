@@ -142,6 +142,48 @@ nav{
   width: 100%;
 }
 
+.brand-slider{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.brand-slider h4{
+  margin-top: 40px;
+  background: #424147;
+  padding: 0 8px;
+  font-size: 18px;
+  display: inline-block;
+  color: #f5e10a;
+  margin-bottom: 30px;
+}
+.brand-slider p{
+  color: #424146;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.owl-carousel .owl-nav button.owl-prev { 
+  left: -20px; 
+  top: 10px; 
+} 
+.owl-carousel .owl-nav button.owl-next { 
+  right: -20px; 
+  top: 10px; 
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev { 
+  position: absolute; 
+  font-size: 60px; 
+  color: #e3e3e3; 
+  background-color: #000; 
+  width: 30px; 
+  height: 65px; 
+  text-align: center; 
+  outline: none; 
+  display: flex; 
+  justify-content: center; 
+  flex-direction: column; 
+  align-items: center; 
+}
 
 @media screen and (max-width: 420px){
   .header-container{
