@@ -185,7 +185,7 @@ nav{
   align-items: center; 
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 600px){
   .header-container{
     text-transform: uppercase;
     width: 100%;
